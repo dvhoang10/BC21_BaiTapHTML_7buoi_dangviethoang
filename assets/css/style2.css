@@ -1,0 +1,40 @@
+/* reset css */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+#main {
+  background-color: white;
+  width: 60%;
+  margin: 8px;
+}
+
+#content {
+  font-size: 20px;
+}
+
+#content h2 {
+  color: brown;
+  font-size: 40px;
+  text-align: center;
+  margin: 33px 0;
+}
+
+#content ol {
+  margin: 20px 0;
+  padding-left: 40px;
+}
+
+#content p {
+  margin: 20px 0;
+}
+
+#poster img {
+  width: 100%;
+}

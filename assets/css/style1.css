@@ -1,0 +1,88 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  margin: 8px;
+}
+
+#logo img {
+  width: 100px;
+  height: 100px;
+}
+
+#logo h1 {
+  background-color: red;
+  color: white;
+  text-align: left;
+  margin: 22px 0;
+}
+
+#header {
+  font-size: 20px;
+}
+
+#nav {
+  list-style-type: none;
+}
+
+#content .imgcnt {
+  width: 50%;
+}
+
+#intro,
+#development {
+  background-color: brown;
+  color: white;
+}
+
+#intro h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 33px 0;
+}
+
+#intro p {
+  font-size: 30px;
+  text-align: justify;
+  margin: 30px 0;
+}
+
+#intro b {
+  color: black;
+}
+
+#development h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 27px 0;
+}
+
+#development ul {
+  font-size: 25px;
+  padding: 0 40px;
+  margin: 25px 0;
+}
+
+#price h1 {
+  text-align: center;
+  margin: 22px 0;
+}
+
+#price table {
+  width: 900px;
+  height: 800px;
+  /* align = "center" (html) */
+  margin: 0 auto;
+}
+
+#price th {
+  font-weight: bold;
+}
+
+#price td {
+  padding: 0 1px;
+}
